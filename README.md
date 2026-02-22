@@ -16,7 +16,7 @@ Convert handwritten college attendance sheets into structured Excel files using 
 ### 1. Clone / Download
 
 ```bash
-cd attendance_app
+cd Automated-Attendance-Digitization-System
 ```
 
 ### 2. Install Dependencies

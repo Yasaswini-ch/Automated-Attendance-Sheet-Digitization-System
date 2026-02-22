@@ -1,0 +1,26 @@
+# NEVER push these to GitHub
+.env
+*.env
+.env.local
+.env.production
+.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit secrets (contains real API key - never push)
+.streamlit/secrets.toml
