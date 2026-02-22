@@ -1,75 +1,26 @@
+# NEVER push these to GitHub
+.env
+*.env
+.env.local
+.env.production
+.env.example
+
 # Python
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
+*.pyc
+*.pyo
+*.pyd
 .Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# Virtual environments
-venv/
-venv2/
-venv311/
 env/
-ENV/
+venv/
+.venv/
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+# Streamlit
+.streamlit/secrets.toml
 
 # OS
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
 
-# Sample data files (users should provide their own)
-*.xlsx
-*.xls
-*.jpeg
-*.jpg
-*.png
-*.gif
-*.bmp
-*.tiff
-
-# Keep only specific files
-!requirements.txt
-!README.md
-!attendance_app.py
-!attendance_digitizer.py
-!ocr_module.py
-!app.py
-!.gitignore
-
-# Output files
-output_*.xlsx
-attendance_output*.xlsx
-final_attendance.xlsx
-attendance_*.xlsx
-
-# Temporary files
-temp_*
-debug_*
-*.log
+# Streamlit secrets (contains real API key - never push)
+.streamlit/secrets.toml
